@@ -1,0 +1,86 @@
+.quest{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    margin: 170px 0 200px 200px;
+}
+
+.Inp{
+  width: 70%;
+}
+    
+    @media screen and (max-width: 480px) {
+        
+      .Inp{
+        width: 100%;
+      }
+      }
+  
+
+
+      .btan{
+        border-radius: 20px;
+        /* background: linear-gradient(to top right, #33ccff 10%, #000099 100%); */
+      }
+  
+
+      
+
+      .butn {
+        /* width: 100px; */
+        border-radius: 20px;
+     
+        transition: width 10s;
+      }
+      
+     
+      .prof{
+        margin: auto;
+       margin-top: 60px;
+       margin-bottom: 60px;
+        
+      }
+
+      .box {
+        /* height: 250px;
+        width: 250px; */
+      
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 1s ease-in-out;
+      }
+      
+      .fade-out {
+        animation: fadeOut 1s ease-in-out ;
+      }
+      
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-25px);
+        }
+      }
+      
+      .fade-in {
+        animation: fadeIn 1s ease-in-out ;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+
+      
+
+     

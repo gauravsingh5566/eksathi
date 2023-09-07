@@ -1,0 +1,12 @@
+.scroll-bar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-minibar::-webkit-scrollbar {
+    width: 2px;
+    /* background-color: blueviolet; */
+}
+
+.scroll-minibar::-webkit-scrollbar-thumb {
+    /* background-color: rgb(185, 182, 182) !important; */
+}

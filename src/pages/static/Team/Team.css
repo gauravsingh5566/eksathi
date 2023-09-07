@@ -1,0 +1,159 @@
+
+
+.meet {
+    margin-left: 41%;
+    border-radius: 50px;
+    margin-top: 3%;
+    border: 3px solid black;
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    font-family: cursive;
+}
+
+.para {
+    margin-top: 3%;
+    color: rgb(55, 54, 54);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.team-img {
+    margin-top: 60%;
+    border-radius: 3%;
+    margin-top: 40%;
+    width: 320px;
+    height: 350px;
+    object-fit: cover;
+    display: grid;
+    place-items: center;
+    margin: 0px 10px 30px 20px;
+
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.text-blk {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -3%;
+}
+
+.position {
+    font-size: 16px;
+    text-align: center;
+    color: blue;
+    margin-top: -10%;
+
+}
+
+.round {
+    margin-top: -30%;
+    margin-left: 8%;
+    border-radius: 50px;
+    border: 3px solid black;
+    padding: 10px;
+    width: 280px;
+    background-color: aliceblue;
+    height: 40px;
+    align-items: center;
+    font-family: cursive;
+    z-index: 1;
+    position: relative;
+}
+
+.tab {
+    list-style: none;
+    position: relative;
+    margin-top: 8%;
+    /* margin: 0px 10px 30px 20px; */
+}
+
+.sadr {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px 30px 20px;
+}
+
+.box {
+    background-color: hsl(0, 0%, 91%);
+    /* text-align: center; */
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    height: 260px;
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.boxh1 {
+    margin-left: 7%;
+    margin-top: 5%;
+    width: 80%;
+    padding: 15px;
+}
+
+.box2 {
+    background-color: hsl(0, 0%, 91%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77.5%;
+    align-items: left;
+    height: 260px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: black;
+    text-align: center;
+    color: wheat;
+    width: 100%;
+    align-items: center;
+    height: 260px;
+    font-size: 25px;
+}
+
+button {
+    border-radius: 20px;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+}
+
+.box2 {
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+
+.author {
+    margin-left: 7%;
+    border-radius: 50%;
+
+}
+
+h2 {
+    margin-left: 13%;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+h5 {
+    font-size: 13px;
+    color: gray;
+    margin-left: 13%;
+    margin-top: -1%;
+}

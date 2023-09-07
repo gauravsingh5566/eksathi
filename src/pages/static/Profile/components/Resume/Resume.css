@@ -1,0 +1,19 @@
+@media print {
+    .resume-container {
+      margin-top: 0; /* Reset the margin to 0 for all pages */
+    }
+    @page :first {
+        margin-top: 0cm;
+        margin-bottom: 0.5cm;
+    }
+    @page {
+     
+      margin-top: 0.9cm;
+    }
+  }
+
+  .custom-card {
+    height: 150px;
+    width: 150px;
+  }
+  

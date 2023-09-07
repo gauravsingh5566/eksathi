@@ -1,0 +1,12 @@
+#free-solo-dialog-demo-listbox {
+    z-index: 3 !important;
+}
+
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: #118bcc;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: #0baaaf;
+}

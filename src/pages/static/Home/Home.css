@@ -1,0 +1,46 @@
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.linear-wipe {
+  text-align: center;
+
+  background: linear-gradient(90deg, hsla(0, 100%, 50%, 1) 0%, hsla(32, 100%, 50%, 1) 11%, hsla(54, 100%, 49%, 1) 21%, hsla(112, 100%, 50%, 1) 32%, hsla(177, 100%, 50%, 1) 42%, hsla(281, 100%, 50%, 1) 54%, hsla(265, 100%, 50%, 1) 64%, hsla(316, 100%, 51%, 1) 76%, hsla(0, 98%, 49%, 1) 89%, hsla(329, 100%, 47%, 1) 100%);
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.category-card {
+  box-shadow: 0px -1px 18px 0px rgba(201, 202, 202, 0.521);
+}
+
+.category-card:hover {
+  box-shadow: 0px -1px 18px 0px rgba(142, 159, 165, 0.705) !important;
+}
+
+.question-card:hover {
+  box-shadow: 0px -1px 18px 0px rgba(142, 159, 165, 0.705) !important;
+}
+
+.question-card {
+  /* background: rgb(234,215,255);
+  background: linear-gradient(5deg, rgba(203, 155, 255, 0.493) 0%, rgba(255,255,255,0) 100%); */
+  box-shadow: 0px -1px 18px 0px rgba(201, 202, 202, 0.521) !important;
+}
